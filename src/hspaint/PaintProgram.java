@@ -113,7 +113,7 @@ public class PaintProgram extends JPanel implements MouseListener, ActionListene
     Graphics2D gc;
 
     public void draw() {
-        Graphics2D g = (Graphics2D) getGraphics();
+        Graphics2D g2 = (Graphics2D) getGraphics();
         int w = xX2 - xX1;
         if (w < 0) {
             w = w * (-1);
